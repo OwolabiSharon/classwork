@@ -15,7 +15,7 @@ transaction = False
 login_no = user1['account_number'] or user2['account_number']
 login_pin = user1['pin'] or user2['pin']
 
-while account_number == login1 and pin == login2:
+while account_number == login_no and pin == login_pin:
     print('''
        Main Menu
     1 - view my balance
